@@ -13,7 +13,11 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(path: "../ReMVVM"),
+        .package(
+            url: "https://github.com/ReMVVM/ReMVVM",
+            .branch("feature/Combine")
+        ),
+        //.package(path: "../ReMVVM"),
         .package(
             url: "https://github.com/ReactiveX/RxSwift",
             .upToNextMajor(from: "6.0.0")
