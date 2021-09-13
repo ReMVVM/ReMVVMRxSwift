@@ -29,7 +29,8 @@ let package = Package(
         .target(
             name: "ReMVVMRxSwift",
             dependencies: [
-                "RxSwift", "ReMVVMCore"
+                "RxSwift",
+                .product(name: "ReMVVMCore", package: "ReMVVM"),
             ],
             path: "Sources",
             exclude: [])
