@@ -14,8 +14,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         .package(
-            url: "https://github.com/ReMVVM/ReMVVM",
-            .upToNextMajor(from: "3.0.0")
+            url: "https://github.com/ReMVVM/ReMVVM", from: "3.0.0"
         ),
         //.package(path: "../ReMVVM"),
         .package(
