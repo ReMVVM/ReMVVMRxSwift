@@ -15,7 +15,7 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         .package(
             url: "https://github.com/ReMVVM/ReMVVM",
-            .branch("feature/Combine")
+            .upToNextMajor(from: "3.0.0")
         ),
         //.package(path: "../ReMVVM"),
         .package(

@@ -42,7 +42,7 @@ extension Reactive: ObserverType where Base: Dispatcher {
 //            self.observer = observer
 //        }
 //
-//        func didChange(state: Base.State, oldState: Base.State?) {
+//        func didReduce(state: Base.State, oldState: Base.State?) {
 //            observer.onNext(state)
 //        }
 //    }
@@ -79,7 +79,7 @@ extension Reactive where Base: StateSource, Base.State: _Optional {
             self.observer = observer
         }
 
-        func didChange(state: Base.State.Wrapped, oldState: Base.State.Wrapped?) {
+        func didReduce(state: Base.State.Wrapped, oldState: Base.State.Wrapped?) {
             observer.onNext(state)
         }
     }
