@@ -5,9 +5,9 @@
         "package": "ReMVVM",
         "repositoryURL": "https://github.com/ReMVVM/ReMVVM",
         "state": {
-          "branch": null,
-          "revision": "9b3ff26dc8890c3b153599410044d9d72cc68cfd",
-          "version": "3.0.0"
+          "branch": "feature/dispatchQueue",
+          "revision": "37691acd86247f0729da2016c505861edee29240",
+          "version": null
         }
       },
       {
@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/ReactiveX/RxSwift",
         "state": {
           "branch": null,
-          "revision": "7c17a6ccca06b5c107cfa4284e634562ddaf5951",
-          "version": "6.2.0"
+          "revision": "b4307ba0b6425c0ba4178e138799946c3da594f8",
+          "version": "6.5.0"
         }
       }
     ]

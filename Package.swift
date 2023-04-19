@@ -14,7 +14,8 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         .package(
-            url: "https://github.com/ReMVVM/ReMVVM", from: "3.0.0"
+            url: "https://github.com/ReMVVM/ReMVVM",
+            .branch("feature/dispatchQueue")
         ),
         //.package(path: "../ReMVVM"),
         .package(
