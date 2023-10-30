@@ -73,6 +73,7 @@ extension Reactive where Base: StateSource, Base.State: _Optional {
     }
 
     private class ReactiveObserver2: StateObserver {
+        typealias State = Base.State.Wrapped
 
         let observer: AnyObserver<Base.State.Wrapped>
         init(_ observer: AnyObserver<Base.State.Wrapped>) {
